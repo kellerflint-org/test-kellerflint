@@ -1,2 +1,8 @@
-for i in range(10):
-    print(i)
+size = 10
+for i in range(size):
+    if (i == size - 1):
+        print(i)
+    else:
+        print(i, end=", ")
+
+print("Done!")
